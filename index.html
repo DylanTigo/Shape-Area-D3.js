@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shape Area</title>
+</head>
+<body>
+  <style>
+    #chart {
+      margin: 160px auto;
+      width: 800px;
+      height: 600px;
+    }
+    .dot-label {
+      font-size: 10px;
+    }
+    .anime {
+      animation: anime 0.5s linear; 
+      animation-delay: 1s;
+      animation-iteration-count: 5;
+    }
+    @keyframes anime {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+  
+  <div id="chart"></div>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
